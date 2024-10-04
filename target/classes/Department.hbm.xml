@@ -1,0 +1,8 @@
+<hibernate-mapping>
+    <class name="com.labor.laboree.models.Department" table="departments">
+        <id name="id" type="integer" column="id">
+            <generator class="identity"/>
+        </id>
+        <property name="name" column="name" type="string"/>
+    </class>
+</hibernate-mapping>
